@@ -1,5 +1,6 @@
 <template lang="html">
   <div class="skills-cards">
+    <h1>Skills</h1>
       <b-card-group deck
                     class="mb-3">
           <b-card bg-variant="light"
@@ -41,7 +42,8 @@
               <img src="../assets/heroku.png" alt="">
           </b-card>
           <b-card bg-variant="light"
-                  text-variant="black"                  style="max-width: 30vw; max-height: 20vw;"
+                  text-variant="black"
+                  style="max-width: 30vw; max-height: 20vw;"
                   header="Firebase"
                   class="text-center">
               <img src="../assets/firebase.png" alt="">
@@ -50,7 +52,7 @@
       <b-card-group deck
                     class="mb-3">
           <b-card bg-variant="light"
-          style="max-width: 30vw; max-height: 20vw;"
+                  style="max-width: 30vw; max-height: 20vw;"
                   header="Knex"
                   class="text-center">
               <img src="../assets/knex.png" alt="">
@@ -64,6 +66,7 @@
           </b-card>
           <b-card bg-variant="light"
                   header="HTML"
+                  text-variant="black"
                   style="max-width: 30vw; max-height: 20vw;"
                   class="text-center">
               <img src="../assets/html5.png" alt="">
@@ -74,6 +77,7 @@
           <b-card bg-variant="light"
                   style="max-width: 30vw; max-height: 20vw;"
                   header="CSS"
+                  text-variant="black"
                   class="text-center">
               <img src="../assets/Css3.png" alt="">
           </b-card>
@@ -86,6 +90,7 @@
           </b-card>
           <b-card bg-variant="light"
                   header="GitHub"
+                  text-variant="black"
                   style="max-width: 30vw; max-height: 20vw;"
                   class="text-center">
               <img src="../assets/github.png" alt="">
@@ -115,9 +120,4 @@ img{
   width: 20vw;
   padding-bottom: 2vw;
 }
-
-
-
-
-
 </style>
