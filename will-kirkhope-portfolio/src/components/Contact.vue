@@ -12,10 +12,10 @@
       <p>Email: kirkhopetraining@yahoo.com</p>
     </div>
     <div class="github">
-      <p>GitHub: https://github.com/WillKirkhope</p>
+      <a href="https://github.com/WillKirkhope">GitHub: WillKirkhope</a>
     </div>
     <div class="linkedin">
-      <p>Linkedin: https://www.linkedin.com/in/william-kirkhope/</p>
+      <a href="https://www.linkedin.com/in/william-kirkhope/">Linkedin: Will-Kirkhope</a>
     </div>
   </div>
 </template>
@@ -35,6 +35,21 @@ export default {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.phone {
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+.email {
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+a {
+  font-size: 24px;
+  color: #2c3e50;
 }
 
 </style>
