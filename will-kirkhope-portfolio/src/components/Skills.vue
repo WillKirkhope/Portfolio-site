@@ -116,8 +116,8 @@ export default {
 }
 
 img{
-  height: 15vw;
-  width: 20vw;
+  height: 10vw;
+  width: 10vw;
   padding-bottom: 2vw;
 }
 </style>
