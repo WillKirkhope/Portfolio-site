@@ -6,10 +6,12 @@
     <h1>Contact Me</h1>
     <div class="phone">
       <p>Phone: (303)-653-3428</p>
-
     </div>
     <div class="email">
       <p>Email: kirkhopetraining@yahoo.com</p>
+    </div>
+    <div class="resume">
+      <a href="https://drive.google.com/open?id=1TL9va4bN-3W3OArMaLMoNtPzyTUz2l8g">View Resume</a>
     </div>
     <div class="github">
       <a href="https://github.com/WillKirkhope">GitHub: WillKirkhope</a>
@@ -45,6 +47,14 @@ export default {
 .email {
   font-size: 24px;
   color: #2c3e50;
+}
+
+.resume {
+  padding: 1vw;
+}
+
+.resume a{
+  font-size: 32px;
 }
 
 a {
