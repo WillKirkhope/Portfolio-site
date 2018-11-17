@@ -96,7 +96,9 @@
               <img src="../assets/github.png" alt="">
           </b-card>
       </b-card-group>
-
+      <div class="text">
+        <p>And Many More!</p>
+      </div>
   </div>
 </template>
 
@@ -113,6 +115,10 @@ export default {
   flex-direction: column;
   margin: 5vw 10vw;
   z-index: 2;
+}
+
+.text{
+  font-size: 24px;
 }
 
 img{
