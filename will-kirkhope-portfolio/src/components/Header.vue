@@ -3,9 +3,9 @@
     <div class="nametag">
       <span class='name'>Will Kirkhope</span>
     </div>
-    <div class="DwnArrow bounce">
+    <!-- <div class="DwnArrow bounce">
       <img src="../assets/downArrow.png" alt="">
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -43,7 +43,7 @@
   padding-top: 20vw;
 }
 
-.DwnArrow{
+/* .DwnArrow{
   margin-top: 22vw;
   margin-left: .8vw;
 }
@@ -62,6 +62,6 @@
   60% {
     transform: translateY(-15px);
   }
-}
+} */
 
 </style>

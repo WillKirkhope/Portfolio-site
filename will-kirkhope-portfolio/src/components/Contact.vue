@@ -8,7 +8,7 @@
       <p>Phone: (303)-653-3428</p>
     </div>
     <div class="email">
-      <p>Email: kirkhopetraining@yahoo.com</p>
+      <p>Email: willkirkhope@gmail.com</p>
     </div>
     <div class="resume">
       <a href="https://drive.google.com/open?id=1TL9va4bN-3W3OArMaLMoNtPzyTUz2l8g">View Resume</a>
