@@ -4,20 +4,19 @@
 
     </div>
     <h1>Contact Me</h1>
-    <div class="phone">
-      <p>Phone: (303)-653-3428</p>
+    <div class="contact-images">
+      <img id="phone" src="../assets/phone.png" alt="">
+      <img id="email" src="../assets/email.png" alt="">
+      <img id="resume" src="../assets/resume.png" alt="">
+      <img id="github" src="../assets/github.png" alt="">
+      <img id="linkedin" src="../assets/linkedin.png" alt="">
     </div>
-    <div class="email">
-      <p>Email: willkirkhope@gmail.com</p>
-    </div>
-    <div class="resume">
-      <a href="https://drive.google.com/open?id=1TL9va4bN-3W3OArMaLMoNtPzyTUz2l8g">View Resume</a>
-    </div>
-    <div class="github">
-      <a href="https://github.com/WillKirkhope">GitHub: WillKirkhope</a>
-    </div>
-    <div class="linkedin">
-      <a href="https://www.linkedin.com/in/william-kirkhope/">Linkedin: Will-Kirkhope</a>
+    <div class="contact-info">
+      <p id="pho">(303)-653-3428</p>
+      <p id="em">willkirkhope@gmail</p>
+      <a id="res" href="https://drive.google.com/open?id=1TL9va4bN-3W3OArMaLMoNtPzyTUz2l8g" target="_blank">Resume</a>
+      <a id="git" href="https://github.com/WillKirkhope" target="_blank">WillKirkhope</a>
+      <a id="link" href="https://www.linkedin.com/in/william-kirkhope/" target="_blank">Will-Kirkhope</a>
     </div>
   </div>
 </template>
@@ -38,6 +37,75 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#linkedin{
+  height: 6.5vw;
+  width: 5vw;
+}
+
+#github{
+  height: 6vw;
+  width: 5vw;
+}
+
+#resume{
+  height: 6vw;
+  width: 5vw;
+}
+
+#email{
+  height: 6.5vw;
+  width: 5vw;
+}
+
+#phone{
+  height: 6vw;
+  width: 5vw;
+}
+
+#pho{
+  font-size: 24px;
+  margin-right: 2.5vw;
+  margin-left: 2.5vw;
+}
+
+#em{
+  font-size: 24px;
+  margin-right: 2.5vw;
+  margin-left: 2.5vw;
+}
+
+#res{
+  margin-right: 7.5vw;
+  margin-left: 3.5vw;
+}
+
+#git{
+  margin-right: 2.5vw;
+  margin-left: 2.5vw;
+}
+
+#link{
+  margin-right: 2.5vw;
+  margin-left: 5.5vw;
+}
+
+.contact-images{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: solid black 2px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  border: solid black 2px;
+  /* margin-right: 2.5vw;
+  margin-left: 2.5vw; */
+}
+
 
 .phone {
   font-size: 24px;
@@ -61,5 +129,10 @@ a {
   font-size: 24px;
   color: #2c3e50;
 }
+
+/* p {
+  font-size: 24px;
+} */
+
 
 </style>
