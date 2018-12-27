@@ -3,9 +3,6 @@
     <div class="nametag">
       <span class='name'>Will Kirkhope</span>
     </div>
-    <!-- <div class="DwnArrow bounce">
-      <img src="../assets/downArrow.png" alt="">
-    </div> -->
   </div>
 </template>
 
@@ -42,26 +39,4 @@
 .nametag{
   padding-top: 20vw;
 }
-
-/* .DwnArrow{
-  margin-top: 22vw;
-  margin-left: .8vw;
-}
-
-.bounce {
-  animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-} */
-
 </style>

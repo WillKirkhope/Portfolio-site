@@ -1,7 +1,6 @@
 <template lang="html">
   <div class="contact-container">
     <div class="backgroundImg3">
-
     </div>
     <h1>Contact Me</h1>
     <div class="contact-images">
@@ -77,33 +76,28 @@ export default {
 
 #res{
   margin-right: 7.5vw;
-  margin-left: 3.5vw;
+  margin-left: 2vw;
 }
 
 #git{
   margin-right: 2.5vw;
-  margin-left: 2.5vw;
+  margin-left: 3vw;
 }
 
 #link{
   margin-right: 2.5vw;
-  margin-left: 5.5vw;
+  margin-left: 5vw;
 }
 
 .contact-images{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border: solid black 2px;
 }
 
 .contact-info {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-around; */
-  border: solid black 2px;
-  /* margin-right: 2.5vw;
-  margin-left: 2.5vw; */
 }
 
 
@@ -129,10 +123,4 @@ a {
   font-size: 24px;
   color: #2c3e50;
 }
-
-/* p {
-  font-size: 24px;
-} */
-
-
 </style>
