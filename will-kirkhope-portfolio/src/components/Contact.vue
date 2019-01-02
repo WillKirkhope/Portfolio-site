@@ -4,13 +4,28 @@
     </div>
     <h1>Contact Me</h1>
     <div class="contact-images">
-      <img id="phone" src="../assets/phone.png" alt="">
-      <img id="email" src="../assets/email.png" alt="">
-      <img id="resume" src="../assets/resume.png" alt="">
-      <img id="github" src="../assets/github.png" alt="">
-      <img id="linkedin" src="../assets/linkedin.png" alt="">
+      <div class="phone">
+        <img id="phone" src="../assets/phone.png" alt="">
+        <p id="pho">(303)-653-3428</p>
+      </div>
+      <div class="email">
+        <img id="email" src="../assets/email.png" alt="">
+        <p id="em">willkirkhope@gmail</p>
+      </div>
+      <div class="resume">
+        <img id="resume" src="../assets/resume.png" alt=""><br>
+        <a id="res" href="https://drive.google.com/open?id=1TL9va4bN-3W3OArMaLMoNtPzyTUz2l8g" target="_blank">Resume</a>
+      </div>
+      <div class="github">
+        <img id="github" src="../assets/github.png" alt=""><br>
+        <a id="git" href="https://github.com/WillKirkhope" target="_blank">WillKirkhope</a>
+      </div>
+      <div class="linkedin">
+        <img id="linkedin" src="../assets/linkedin.png" alt=""><br>
+        <a id="link" href="https://www.linkedin.com/in/william-kirkhope/" target="_blank">Will-Kirkhope</a>
+      </div>
     </div>
-    <div class="contact-info">
+    <!-- <div class="contact-info">
       <div class="pho">
         <p id="pho">(303)-653-3428</p>
       </div>
@@ -26,7 +41,7 @@
       <div class="link">
         <a id="link" href="https://www.linkedin.com/in/william-kirkhope/" target="_blank">Will-Kirkhope</a>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -71,26 +86,13 @@ export default {
   height: 6vw;
   width: 5vw;
 }
-.pho{
-  margin-left: 2vw;
-}
-.em{
-  margin-left: 3vw;
-  margin-right: 4vw;
-}
-.res{
-  margin-left: 3vw;
-  margin-right: 2vw;
-}
-.git{
-  margin-left: 8vw;
-  margin-right: 8vw;
-}
 
 .contact-images{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: baseline;
+
 }
 
 .contact-info {
