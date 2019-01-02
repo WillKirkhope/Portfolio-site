@@ -11,11 +11,21 @@
       <img id="linkedin" src="../assets/linkedin.png" alt="">
     </div>
     <div class="contact-info">
-      <p id="pho">(303)-653-3428</p>
-      <p id="em">willkirkhope@gmail</p>
-      <a id="res" href="https://drive.google.com/open?id=1TL9va4bN-3W3OArMaLMoNtPzyTUz2l8g" target="_blank">Resume</a>
-      <a id="git" href="https://github.com/WillKirkhope" target="_blank">WillKirkhope</a>
-      <a id="link" href="https://www.linkedin.com/in/william-kirkhope/" target="_blank">Will-Kirkhope</a>
+      <div class="pho">
+        <p id="pho">(303)-653-3428</p>
+      </div>
+      <div class="em">
+        <p id="em">willkirkhope@gmail</p>
+      </div>
+      <div class="res">
+        <a id="res" href="https://drive.google.com/open?id=1TL9va4bN-3W3OArMaLMoNtPzyTUz2l8g" target="_blank">Resume</a>
+      </div>
+      <div class="git">
+        <a id="git" href="https://github.com/WillKirkhope" target="_blank">WillKirkhope</a>
+      </div>
+      <div class="link">
+        <a id="link" href="https://www.linkedin.com/in/william-kirkhope/" target="_blank">Will-Kirkhope</a>
+      </div>
     </div>
   </div>
 </template>
@@ -61,33 +71,21 @@ export default {
   height: 6vw;
   width: 5vw;
 }
-
-/* #pho{
-  font-size: 24px;
-  margin-right: 2.5vw;
-  margin-left: 2.5vw;
-}
-
-#em{
-  font-size: 24px;
-  margin-right: 2.5vw;
-  margin-left: 2.5vw;
-}
-
-#res{
-  margin-right: 7.5vw;
+.pho{
   margin-left: 2vw;
 }
-
-#git{
-  margin-right: 2.5vw;
+.em{
   margin-left: 3vw;
+  margin-right: 4vw;
 }
-
-#link{
-  margin-right: 2.5vw;
-  margin-left: 5vw;
-} */
+.res{
+  margin-left: 3vw;
+  margin-right: 2vw;
+}
+.git{
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
 
 .contact-images{
   display: flex;
@@ -114,19 +112,11 @@ export default {
   padding: 1vw;
 }
 
-/* .resume a{
-  font-size: 32px;
-}
-
-a {
-  font-size: 24px;
-  color: #2c3e50;
-} */
-
 .contact-info{
   display: flex;
   font-size: 24px;
-  justify-content: space-around;
+  /* align-items: center; */
+  /* justify-content: space-around; */
 }
 
 .contact-info href{
