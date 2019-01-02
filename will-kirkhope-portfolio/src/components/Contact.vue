@@ -62,7 +62,7 @@ export default {
   width: 5vw;
 }
 
-#pho{
+/* #pho{
   font-size: 24px;
   margin-right: 2.5vw;
   margin-left: 2.5vw;
@@ -87,7 +87,7 @@ export default {
 #link{
   margin-right: 2.5vw;
   margin-left: 5vw;
-}
+} */
 
 .contact-images{
   display: flex;
@@ -99,7 +99,6 @@ export default {
   display: flex;
   flex-direction: row;
 }
-
 
 .phone {
   font-size: 24px;
@@ -115,12 +114,24 @@ export default {
   padding: 1vw;
 }
 
-.resume a{
+/* .resume a{
   font-size: 32px;
 }
 
 a {
   font-size: 24px;
   color: #2c3e50;
+} */
+
+.contact-info{
+  display: flex;
+  font-size: 24px;
+  justify-content: space-around;
 }
+
+.contact-info href{
+  text-decoration: none;
+  color: #2c3e50;
+}
+
 </style>
